@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Password Manager and File VaultTests");
+    // STFail(@"Unit tests are not implemented yet in Password Manager and File VaultTests");
 }
 
 @end

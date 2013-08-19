@@ -12,10 +12,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    /* self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible]; */
+
+    DBSession* dbSession =
+    [ [ DBSession alloc ]
+     initWithAppKey: @"zord270ayly6lsi"
+     appSecret: @"rmv3vl9wnozkw4r"
+     root: kDBRootAppFolder ];  // Either kDBRootAppFolder or kDBRootDropbox.
+    [ DBSession setSharedSession: dbSession ];
+
     return YES;
 }
 
@@ -44,6 +52,20 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    if( [ [ DBSession sharedSession ] handleOpenURL: url ] ) {
+        if( [ [ DBSession sharedSession ] isLinked ] ) {
+            NSLog( @"App linked successfully!" );
+            // At this point you can start making API calls
+        }
+
+        return YES;
+    }
+
+    // Add whatever other url handling code your app requires here
+    return NO;
 }
 
 @end

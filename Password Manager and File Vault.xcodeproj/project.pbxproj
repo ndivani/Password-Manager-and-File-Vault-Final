@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4007A2D31799335A00AD8ADA /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007A2D21799335A00AD8ADA /* Helper.m */; };
+		40200511177DAE1A0017A698 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40200510177DAE1A0017A698 /* DropboxSDK.framework */; };
+		40320D8716CE6CD100ED1CC2 /* GetFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 40320D8616CE6CD100ED1CC2 /* GetFeatures.m */; };
+		40320D9016CE773B00ED1CC2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40320D8F16CE773B00ED1CC2 /* QuartzCore.framework */; };
+		40556E3816CBA2BA0018B855 /* ICMetrics.m in Sources */ = {isa = PBXBuildFile; fileRef = 40556E3716CBA2BA0018B855 /* ICMetrics.m */; };
+		40556E4216CBA5E50018B855 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40556E4116CBA5E50018B855 /* Security.framework */; };
+		406A314D16CCF01A00B68607 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406A314C16CCF01A00B68607 /* CoreFoundation.framework */; };
+		406A315016CD0F2B00B68607 /* AsymmetricEncryptionRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 406A314F16CD0F2B00B68607 /* AsymmetricEncryptionRSA.m */; };
+		4084FD321715B4F2003A3598 /* PasswordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4084FD311715B4F2003A3598 /* PasswordsTests.m */; };
+		4084FD38171840E1003A3598 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD37171840E1003A3598 /* 20-gear2.png */; };
+		4084FD3A1718427E003A3598 /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD391718427E003A3598 /* 44-shoebox.png */; };
+		4084FD3C1718461F003A3598 /* 27-planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD3B1718461F003A3598 /* 27-planet.png */; };
+		4084FD3E171846E5003A3598 /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD3D171846E5003A3598 /* 162-receipt.png */; };
+		4084FD4017184851003A3598 /* 15-tags.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD3F17184851003A3598 /* 15-tags.png */; };
+		4084FD421718488E003A3598 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD411718488E003A3598 /* 111-user.png */; };
+		4084FD7117186001003A3598 /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD7017186001003A3598 /* 33-cabinet.png */; };
+		4084FD7317186145003A3598 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD7217186145003A3598 /* 80-shopping-cart.png */; };
+		4084FD75171861B3003A3598 /* 107-widescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4084FD74171861B3003A3598 /* 107-widescreen.png */; };
 		4094834916C94FDF0063FFB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4094834816C94FDF0063FFB8 /* UIKit.framework */; };
 		4094834B16C94FDF0063FFB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4094834A16C94FDF0063FFB8 /* Foundation.framework */; };
 		4094834D16C94FDF0063FFB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4094834C16C94FDF0063FFB8 /* CoreGraphics.framework */; };
@@ -21,6 +39,26 @@
 		4094836916C94FDF0063FFB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4094834A16C94FDF0063FFB8 /* Foundation.framework */; };
 		4094837116C94FDF0063FFB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4094836F16C94FDF0063FFB8 /* InfoPlist.strings */; };
 		4094837416C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4094837316C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.m */; };
+		4094837E16C94FEE0063FFB8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4094837D16C94FEE0063FFB8 /* Storyboard.storyboard */; };
+		40B808BC16CA797600CF375E /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B808BB16CA797600CF375E /* Login.m */; };
+		40E6DBC0171C2D350012A417 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E6DBBF171C2D350012A417 /* button.png */; };
+		40F02FE81781A055000D295B /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F02FE71781A055000D295B /* Keychain.m */; };
+		40F02FEB1782F6FA000D295B /* PasswordsManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F02FEA1782F6FA000D295B /* PasswordsManagement.m */; };
+		40F02FF617843D77000D295B /* PasswordsManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F02FF517843D77000D295B /* PasswordsManagementTests.m */; };
+		40F02FF917858DE6000D295B /* SavePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F02FF817858DE6000D295B /* SavePassword.m */; };
+		40F02FFD1785936B000D295B /* LabelAndValueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F02FFC1785936B000D295B /* LabelAndValueView.xib */; };
+		40F03000178599C0000D295B /* LabelAndValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F02FFF178599BF000D295B /* LabelAndValueCell.m */; };
+		40FDFD99178AC2A40061B74F /* SaveTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FDFD98178AC2A40061B74F /* SaveTemplate.m */; };
+		40FDFD9C178AC58F0061B74F /* ViewPasswords.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FDFD9B178AC58F0061B74F /* ViewPasswords.m */; };
+		40FDFD9F178AD7470061B74F /* ViewTemplates.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FDFD9E178AD7470061B74F /* ViewTemplates.m */; };
+		40FDFDA1178AE6090061B74F /* LabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FDFDA0178AE6090061B74F /* LabelView.xib */; };
+		40FDFDA4178AE6C10061B74F /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FDFDA3178AE6C00061B74F /* LabelCell.m */; };
+		4F2F941C17AFF2B200616B53 /* IconSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F941B17AFF2B100616B53 /* IconSelect.m */; };
+		4F9E4B6517B276CC00BFD060 /* PasswordViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F9E4B6417B276CC00BFD060 /* PasswordViewCell.xib */; };
+		4F9E4B6817B277EC00BFD060 /* PasswordViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E4B6717B277EC00BFD060 /* PasswordViewCell.m */; };
+		4FB1748C17B3ADEA0069603C /* icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FB1748B17B3ADEA0069603C /* icons.plist */; };
+		94B1A8B017C21A53008DC4BE /* PasscodeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B1A8AD17C21A53008DC4BE /* PasscodeChange.m */; };
+		94B1A8B117C21A53008DC4BE /* PasscodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B1A8AF17C21A53008DC4BE /* PasscodeManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +72,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4007A2D11799335A00AD8ADA /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		4007A2D21799335A00AD8ADA /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		40200510177DAE1A0017A698 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		40320D8516CE6CD100ED1CC2 /* GetFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFeatures.h; sourceTree = "<group>"; };
+		40320D8616CE6CD100ED1CC2 /* GetFeatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFeatures.m; sourceTree = "<group>"; };
+		40320D8F16CE773B00ED1CC2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		40556E3616CBA2BA0018B855 /* ICMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMetrics.h; sourceTree = "<group>"; };
+		40556E3716CBA2BA0018B855 /* ICMetrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICMetrics.m; sourceTree = "<group>"; };
+		40556E4116CBA5E50018B855 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		406A314C16CCF01A00B68607 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		406A314E16CD0F2B00B68607 /* AsymmetricEncryptionRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsymmetricEncryptionRSA.h; sourceTree = "<group>"; };
+		406A314F16CD0F2B00B68607 /* AsymmetricEncryptionRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsymmetricEncryptionRSA.m; sourceTree = "<group>"; };
+		4084FD301715B4F2003A3598 /* PasswordsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordsTests.h; sourceTree = "<group>"; };
+		4084FD311715B4F2003A3598 /* PasswordsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordsTests.m; sourceTree = "<group>"; };
+		4084FD37171840E1003A3598 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		4084FD391718427E003A3598 /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
+		4084FD3B1718461F003A3598 /* 27-planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "27-planet.png"; sourceTree = "<group>"; };
+		4084FD3D171846E5003A3598 /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
+		4084FD3F17184851003A3598 /* 15-tags.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15-tags.png"; sourceTree = "<group>"; };
+		4084FD411718488E003A3598 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		4084FD7017186001003A3598 /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "33-cabinet.png"; sourceTree = "<group>"; };
+		4084FD7217186145003A3598 /* 80-shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-shopping-cart.png"; sourceTree = "<group>"; };
+		4084FD74171861B3003A3598 /* 107-widescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "107-widescreen.png"; sourceTree = "<group>"; };
 		4094834416C94FDF0063FFB8 /* Password Manager and File Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Manager and File Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4094834816C94FDF0063FFB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4094834A16C94FDF0063FFB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +114,40 @@
 		4094837016C94FDF0063FFB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4094837216C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Password_Manager_and_File_VaultTests.h; sourceTree = "<group>"; };
 		4094837316C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_Manager_and_File_VaultTests.m; sourceTree = "<group>"; };
+		4094837D16C94FEE0063FFB8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		40B808BA16CA797600CF375E /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		40B808BB16CA797600CF375E /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Login.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		40E6DBBF171C2D350012A417 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		40F02FE61781A055000D295B /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		40F02FE71781A055000D295B /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		40F02FE91782F6FA000D295B /* PasswordsManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordsManagement.h; sourceTree = "<group>"; };
+		40F02FEA1782F6FA000D295B /* PasswordsManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordsManagement.m; sourceTree = "<group>"; };
+		40F02FF417843D77000D295B /* PasswordsManagementTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordsManagementTests.h; sourceTree = "<group>"; };
+		40F02FF517843D77000D295B /* PasswordsManagementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordsManagementTests.m; sourceTree = "<group>"; };
+		40F02FF717858DE6000D295B /* SavePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavePassword.h; sourceTree = "<group>"; };
+		40F02FF817858DE6000D295B /* SavePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavePassword.m; sourceTree = "<group>"; };
+		40F02FFC1785936B000D295B /* LabelAndValueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelAndValueView.xib; sourceTree = "<group>"; };
+		40F02FFE178599BF000D295B /* LabelAndValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelAndValueCell.h; sourceTree = "<group>"; };
+		40F02FFF178599BF000D295B /* LabelAndValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelAndValueCell.m; sourceTree = "<group>"; };
+		40FDFD97178AC2A40061B74F /* SaveTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTemplate.h; sourceTree = "<group>"; };
+		40FDFD98178AC2A40061B74F /* SaveTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTemplate.m; sourceTree = "<group>"; };
+		40FDFD9A178AC58F0061B74F /* ViewPasswords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPasswords.h; sourceTree = "<group>"; };
+		40FDFD9B178AC58F0061B74F /* ViewPasswords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPasswords.m; sourceTree = "<group>"; };
+		40FDFD9D178AD7470061B74F /* ViewTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTemplates.h; sourceTree = "<group>"; };
+		40FDFD9E178AD7470061B74F /* ViewTemplates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTemplates.m; sourceTree = "<group>"; };
+		40FDFDA0178AE6090061B74F /* LabelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelView.xib; sourceTree = "<group>"; };
+		40FDFDA2178AE6C00061B74F /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		40FDFDA3178AE6C00061B74F /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		4F2F941A17AFF2B100616B53 /* IconSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconSelect.h; sourceTree = "<group>"; };
+		4F2F941B17AFF2B100616B53 /* IconSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconSelect.m; sourceTree = "<group>"; };
+		4F9E4B6417B276CC00BFD060 /* PasswordViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewCell.xib; sourceTree = "<group>"; };
+		4F9E4B6617B277EC00BFD060 /* PasswordViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewCell.h; sourceTree = "<group>"; };
+		4F9E4B6717B277EC00BFD060 /* PasswordViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewCell.m; sourceTree = "<group>"; };
+		4FB1748B17B3ADEA0069603C /* icons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = icons.plist; sourceTree = "<group>"; };
+		94B1A8AC17C21A53008DC4BE /* PasscodeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasscodeChange.h; sourceTree = "<group>"; };
+		94B1A8AD17C21A53008DC4BE /* PasscodeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PasscodeChange.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		94B1A8AE17C21A53008DC4BE /* PasscodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PasscodeManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		94B1A8AF17C21A53008DC4BE /* PasscodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PasscodeManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +155,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40320D9016CE773B00ED1CC2 /* QuartzCore.framework in Frameworks */,
+				406A314D16CCF01A00B68607 /* CoreFoundation.framework in Frameworks */,
+				40556E4216CBA5E50018B855 /* Security.framework in Frameworks */,
 				4094834916C94FDF0063FFB8 /* UIKit.framework in Frameworks */,
 				4094834B16C94FDF0063FFB8 /* Foundation.framework in Frameworks */,
 				4094834D16C94FDF0063FFB8 /* CoreGraphics.framework in Frameworks */,
+				40200511177DAE1A0017A698 /* DropboxSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +178,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4084FD3617184093003A3598 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				40E6DBBF171C2D350012A417 /* button.png */,
+				4084FD74171861B3003A3598 /* 107-widescreen.png */,
+				4084FD7217186145003A3598 /* 80-shopping-cart.png */,
+				4084FD7017186001003A3598 /* 33-cabinet.png */,
+				4084FD411718488E003A3598 /* 111-user.png */,
+				4084FD3F17184851003A3598 /* 15-tags.png */,
+				4084FD3D171846E5003A3598 /* 162-receipt.png */,
+				4084FD3B1718461F003A3598 /* 27-planet.png */,
+				4084FD391718427E003A3598 /* 44-shoebox.png */,
+				4084FD37171840E1003A3598 /* 20-gear2.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		4094833916C94FDF0063FFB8 = {
 			isa = PBXGroup;
 			children = (
+				4FB1748B17B3ADEA0069603C /* icons.plist */,
+				4084FD3617184093003A3598 /* Images */,
 				4094834E16C94FDF0063FFB8 /* Password Manager and File Vault */,
 				4094836C16C94FDF0063FFB8 /* Password Manager and File VaultTests */,
 				4094834716C94FDF0063FFB8 /* Frameworks */,
@@ -101,6 +219,10 @@
 		4094834716C94FDF0063FFB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40200510177DAE1A0017A698 /* DropboxSDK.framework */,
+				40320D8F16CE773B00ED1CC2 /* QuartzCore.framework */,
+				406A314C16CCF01A00B68607 /* CoreFoundation.framework */,
+				40556E4116CBA5E50018B855 /* Security.framework */,
 				4094834816C94FDF0063FFB8 /* UIKit.framework */,
 				4094834A16C94FDF0063FFB8 /* Foundation.framework */,
 				4094834C16C94FDF0063FFB8 /* CoreGraphics.framework */,
@@ -112,9 +234,45 @@
 		4094834E16C94FDF0063FFB8 /* Password Manager and File Vault */ = {
 			isa = PBXGroup;
 			children = (
+				4F9E4B6717B277EC00BFD060 /* PasswordViewCell.m */,
+				4F9E4B6617B277EC00BFD060 /* PasswordViewCell.h */,
+				4F9E4B6417B276CC00BFD060 /* PasswordViewCell.xib */,
 				4094835716C94FDF0063FFB8 /* AppDelegate.h */,
 				4094835816C94FDF0063FFB8 /* AppDelegate.m */,
 				4094834F16C94FDF0063FFB8 /* Supporting Files */,
+				4094837D16C94FEE0063FFB8 /* Storyboard.storyboard */,
+				4F2F941A17AFF2B100616B53 /* IconSelect.h */,
+				4F2F941B17AFF2B100616B53 /* IconSelect.m */,
+				40B808BA16CA797600CF375E /* Login.h */,
+				40B808BB16CA797600CF375E /* Login.m */,
+				40556E3616CBA2BA0018B855 /* ICMetrics.h */,
+				40556E3716CBA2BA0018B855 /* ICMetrics.m */,
+				406A314E16CD0F2B00B68607 /* AsymmetricEncryptionRSA.h */,
+				406A314F16CD0F2B00B68607 /* AsymmetricEncryptionRSA.m */,
+				40320D8516CE6CD100ED1CC2 /* GetFeatures.h */,
+				40320D8616CE6CD100ED1CC2 /* GetFeatures.m */,
+				40F02FE61781A055000D295B /* Keychain.h */,
+				40F02FE71781A055000D295B /* Keychain.m */,
+				94B1A8AC17C21A53008DC4BE /* PasscodeChange.h */,
+				94B1A8AD17C21A53008DC4BE /* PasscodeChange.m */,
+				94B1A8AE17C21A53008DC4BE /* PasscodeManager.h */,
+				94B1A8AF17C21A53008DC4BE /* PasscodeManager.m */,
+				40F02FE91782F6FA000D295B /* PasswordsManagement.h */,
+				40F02FEA1782F6FA000D295B /* PasswordsManagement.m */,
+				40F02FF717858DE6000D295B /* SavePassword.h */,
+				40F02FF817858DE6000D295B /* SavePassword.m */,
+				40F02FFE178599BF000D295B /* LabelAndValueCell.h */,
+				40F02FFF178599BF000D295B /* LabelAndValueCell.m */,
+				40FDFD97178AC2A40061B74F /* SaveTemplate.h */,
+				40FDFD98178AC2A40061B74F /* SaveTemplate.m */,
+				40FDFD9A178AC58F0061B74F /* ViewPasswords.h */,
+				40FDFD9B178AC58F0061B74F /* ViewPasswords.m */,
+				40FDFD9D178AD7470061B74F /* ViewTemplates.h */,
+				40FDFD9E178AD7470061B74F /* ViewTemplates.m */,
+				40FDFDA2178AE6C00061B74F /* LabelCell.h */,
+				40FDFDA3178AE6C00061B74F /* LabelCell.m */,
+				4007A2D11799335A00AD8ADA /* Helper.h */,
+				4007A2D21799335A00AD8ADA /* Helper.m */,
 			);
 			path = "Password Manager and File Vault";
 			sourceTree = "<group>";
@@ -129,6 +287,8 @@
 				4094835A16C94FDF0063FFB8 /* Default.png */,
 				4094835C16C94FDF0063FFB8 /* Default@2x.png */,
 				4094835E16C94FDF0063FFB8 /* Default-568h@2x.png */,
+				40F02FFC1785936B000D295B /* LabelAndValueView.xib */,
+				40FDFDA0178AE6090061B74F /* LabelView.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +299,10 @@
 				4094837216C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.h */,
 				4094837316C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.m */,
 				4094836D16C94FDF0063FFB8 /* Supporting Files */,
+				4084FD301715B4F2003A3598 /* PasswordsTests.h */,
+				4084FD311715B4F2003A3598 /* PasswordsTests.m */,
+				40F02FF417843D77000D295B /* PasswordsManagementTests.h */,
+				40F02FF517843D77000D295B /* PasswordsManagementTests.m */,
 			);
 			path = "Password Manager and File VaultTests";
 			sourceTree = "<group>";
@@ -227,6 +391,21 @@
 				4094835B16C94FDF0063FFB8 /* Default.png in Resources */,
 				4094835D16C94FDF0063FFB8 /* Default@2x.png in Resources */,
 				4094835F16C94FDF0063FFB8 /* Default-568h@2x.png in Resources */,
+				4094837E16C94FEE0063FFB8 /* Storyboard.storyboard in Resources */,
+				4084FD38171840E1003A3598 /* 20-gear2.png in Resources */,
+				4084FD3A1718427E003A3598 /* 44-shoebox.png in Resources */,
+				4084FD3C1718461F003A3598 /* 27-planet.png in Resources */,
+				4084FD3E171846E5003A3598 /* 162-receipt.png in Resources */,
+				4084FD4017184851003A3598 /* 15-tags.png in Resources */,
+				4084FD421718488E003A3598 /* 111-user.png in Resources */,
+				4084FD7117186001003A3598 /* 33-cabinet.png in Resources */,
+				4084FD7317186145003A3598 /* 80-shopping-cart.png in Resources */,
+				4084FD75171861B3003A3598 /* 107-widescreen.png in Resources */,
+				40E6DBC0171C2D350012A417 /* button.png in Resources */,
+				40F02FFD1785936B000D295B /* LabelAndValueView.xib in Resources */,
+				40FDFDA1178AE6090061B74F /* LabelView.xib in Resources */,
+				4F9E4B6517B276CC00BFD060 /* PasswordViewCell.xib in Resources */,
+				4FB1748C17B3ADEA0069603C /* icons.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +442,23 @@
 			files = (
 				4094835516C94FDF0063FFB8 /* main.m in Sources */,
 				4094835916C94FDF0063FFB8 /* AppDelegate.m in Sources */,
+				40B808BC16CA797600CF375E /* Login.m in Sources */,
+				40556E3816CBA2BA0018B855 /* ICMetrics.m in Sources */,
+				406A315016CD0F2B00B68607 /* AsymmetricEncryptionRSA.m in Sources */,
+				40320D8716CE6CD100ED1CC2 /* GetFeatures.m in Sources */,
+				40F02FE81781A055000D295B /* Keychain.m in Sources */,
+				40F02FEB1782F6FA000D295B /* PasswordsManagement.m in Sources */,
+				40F02FF917858DE6000D295B /* SavePassword.m in Sources */,
+				40F03000178599C0000D295B /* LabelAndValueCell.m in Sources */,
+				40FDFD99178AC2A40061B74F /* SaveTemplate.m in Sources */,
+				40FDFD9C178AC58F0061B74F /* ViewPasswords.m in Sources */,
+				40FDFD9F178AD7470061B74F /* ViewTemplates.m in Sources */,
+				40FDFDA4178AE6C10061B74F /* LabelCell.m in Sources */,
+				4007A2D31799335A00AD8ADA /* Helper.m in Sources */,
+				4F2F941C17AFF2B200616B53 /* IconSelect.m in Sources */,
+				4F9E4B6817B277EC00BFD060 /* PasswordViewCell.m in Sources */,
+				94B1A8B017C21A53008DC4BE /* PasscodeChange.m in Sources */,
+				94B1A8B117C21A53008DC4BE /* PasscodeManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +467,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4094837416C94FDF0063FFB8 /* Password_Manager_and_File_VaultTests.m in Sources */,
+				4084FD321715B4F2003A3598 /* PasswordsTests.m in Sources */,
+				40F02FF617843D77000D295B /* PasswordsManagementTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +555,17 @@
 		4094837816C94FDF0063FFB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Klaus McDonald-Maier (V3P2HGM9BS)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/dropbox-ios-sdk-1.3.2\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Password Manager and File Vault/Password Manager and File Vault-Prefix.pch";
 				INFOPLIST_FILE = "Password Manager and File Vault/Password Manager and File Vault-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0DB4089A-16FD-4890-8495-CC4CFE0DBD0B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,6 +573,11 @@
 		4094837916C94FDF0063FFB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/dropbox-ios-sdk-1.3.2\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Password Manager and File Vault/Password Manager and File Vault-Prefix.pch";
 				INFOPLIST_FILE = "Password Manager and File Vault/Password Manager and File Vault-Info.plist";
@@ -429,6 +639,7 @@
 				4094837916C94FDF0063FFB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4094837A16C94FDF0063FFB8 /* Build configuration list for PBXNativeTarget "Password Manager and File VaultTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +648,7 @@
 				4094837C16C94FDF0063FFB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

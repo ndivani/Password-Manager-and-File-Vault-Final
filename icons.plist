@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IconNames</key>
+	<array>
+		<string>Blank</string>
+		<string>Video Account</string>
+		<string>Shopping</string>
+		<string>File</string>
+		<string>User Account</string>
+		<string>Tag</string>
+		<string>Receipt</string>
+		<string>Website Login</string>
+		<string>Database</string>
+		<string>Setting</string>
+	</array>
+	<key>IconImages</key>
+	<array>
+		<string> </string>
+		<string>107-widescreen.png</string>
+		<string>80-shopping-cart.png</string>
+		<string>33-cabinet.png</string>
+		<string>111-user.png</string>
+		<string>15-tags.png</string>
+		<string>162-receipt.png</string>
+		<string>27-planet.png</string>
+		<string>44-shoebox.png</string>
+		<string>20-gear2.png</string>
+	</array>
+</dict>
+</plist>
